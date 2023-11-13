@@ -37,10 +37,10 @@ This project demonstrates the use of Azure Cosmos DB for MongoDB vCore's vector 
    - Optionally, use `gradio` for creating an interactive web interface.
 
 ## Solution architecture
-[solution architecture](./media/architecture.png)
+![solution architecture](./media/architecture.png)
 
 ## Output 
-[Output screen](./media/Output.png)
+![Output screen](./media/Output.png)
 
 ## Usage
 - The script can be modified to cater to different inventory types and advertisement themes.
