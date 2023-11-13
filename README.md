@@ -1,4 +1,4 @@
-# AI-Enhanced Advertisement Generation
+# AI-Enhanced Advertisement Generation using Azure Cosmos DB for MongoDB vCore
 
 ## Overview
 This project demonstrates the use of Azure Cosmos DB for MongoDB vCore's vector similarity search and OpenAI embeddings to generate advertising content aimed at boosting sales. It is particularly tailored for a shoe retailer looking to leverage recent trends for effective advertising.
