@@ -7,12 +7,13 @@
     <style>
         article { 
             font-family: 'Arial', sans-serif;
+            color: grey;
             margin: 0 auto; /* Centers the content */
             max-width: 600px; /* Sets maximum width for larger screens */
             padding: 20px; /* Adds padding around the content */
         }
         .ad { margin-bottom: 30px; }
-        .ad-image { width: 100%; max-width: 500px; height: auto; }
+        .ad-image { width: 100%; max-width: 300px; height: auto; }
 
         .product { 
             display: flex;
@@ -29,10 +30,18 @@
             margin-left: 20px;
             margin-top: -30px;
         }
-        .product-title { color: #333; font-size: 18px; font-weight: bold; margin: 0px;}
-        .product-price { color: #888; font-size: 16px; margin: 5px 0; }
-        .product-description { color: #666; font-size: 14px; margin-bottom: 30px; margin-left: 20px;}
-        .buy-now-button { background-color: #5cb85c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 100px;}
+        .product-title { color: gray; font-size: 16px; font-weight: bold; margin: 0px;}
+        .product-price { color: rgb(128, 128, 128); font-size: 16px; margin: 5px 0; }
+        .product-description { color: #666; font-size: 12px; margin-bottom: 30px; margin-left: 20px;}
+        .buy-now-button { 
+            background-color: #5cb85c; 
+            color: white; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            margin-top: 0px;
+            display: inline-block; /* Make the button inline-block to align it horizontally */
+        }
         .buy-now-button:hover { 
             background-color: #0056b3;
         }
